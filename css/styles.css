@@ -80,6 +80,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -88,7 +89,7 @@ img {
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .menu-link {
@@ -117,7 +118,7 @@ img {
 
 .contacts-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .contacts-link {
   color: #434455;
@@ -166,6 +167,7 @@ img {
   display: block;
   padding: 16px 32px;
   cursor: pointer;
+  border: none;
   margin: auto;
 }
 
@@ -176,12 +178,16 @@ img {
 .button:focus {
   background: #404bbf;
 }
+
 .advantages-list {
   display: flex;
   align-items: flex-start;
-  column-gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  gap: 24px;
+  width: calc((100% - 72px) / 4)
+  padding-bottum: 120px;
+padding-top: 120px;
+
+  
 }
 
 .advantages-title {
@@ -190,6 +196,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -251,6 +258,8 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.name-container {
+  padding: 32px 0;
 /* =====our portfolio====== */
 
 .portfolio-section {
