@@ -169,7 +169,7 @@ img {
   cursor: pointer;
   border: none;
   margin: auto;
-  min-width: 169px
+  min-width: 169px;
 }
 
 .button:hover {
@@ -186,9 +186,7 @@ img {
   gap: 24px;
   width: calc((100% - 72px) / 4);
   padding-bottum: 120px;
-padding-top: 120px;
-
-  
+  padding-top: 120px;
 }
 
 .advantages-title {
@@ -286,13 +284,11 @@ padding-top: 120px;
   justify-content: center;
   row-gap: 48px;
   column-gap: 24px;
-  width: calc((100%-48px) / 3);
 }
 
 .portfolio-item {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  border-top: none;
   margin-bottom: 8px;
+  width: calc((100%-48px) / 3);
 }
 .portfolio-card-title {
   color: #2e2f42;
@@ -312,7 +308,7 @@ padding-top: 120px;
 /* =====footer===== */
 
 .footer-section {
-  background: #2E2F42;
+  background: #2e2f42;
   padding: 100px 0;
 }
 
