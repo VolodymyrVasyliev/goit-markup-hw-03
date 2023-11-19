@@ -68,7 +68,6 @@ img {
 }
 .page-navigation {
   display: flex;
-  column-gap: 76px;
   align-items: center;
 }
 
