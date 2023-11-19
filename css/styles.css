@@ -180,13 +180,19 @@ img {
   background: #404bbf;
 }
 
+/* =====advantages===== */
+
+.advantages-section {
+  padding: 120px 0;
+}
 .advantages-list {
   display: flex;
   align-items: flex-start;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
-  padding-bottum: 120px;
-  padding-top: 120px;
+}
+
+.adventages-item {
+ width: calc((100% - 72px) / 4);
 }
 
 .advantages-title {
@@ -290,15 +296,20 @@ img {
   margin-bottom: 8px;
   width: calc((100%-48px) / 3);
 }
+
+.app-name {
+  padding: 34px 16px;
+  border: 1px solid #e7e9fc;
+}
+
+
 .portfolio-card-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  margin-top: 32px;
   margin-bottom: 8px;
-  margin-left: 16px;
 }
 
 .portfolio-text {
@@ -306,8 +317,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
-  margin-left: 16px;
 }
 
 /* =====footer===== */
@@ -329,4 +338,8 @@ img {
 
 .logo-studio-footer {
   color: #f4f4fd;
+}
+.logo {
+  margin-bottom: 16px;
+  display: inline-block;
 }
